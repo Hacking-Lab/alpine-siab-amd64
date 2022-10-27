@@ -2,6 +2,7 @@ version: '3.4'
 
 services:
   alpine-siab-amd64:
+    build: .
     image: hackinglab/alpine-siab-amd64:3.2
     environment:
       - "HL_USER_USERNAME=hacker"
