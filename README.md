@@ -19,3 +19,8 @@ services:
     ports:
       - 4200:4200
 ```
+
+* if password is given in ENV, it will be taken
+* otherwise the password is random
+
+
